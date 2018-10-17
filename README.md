@@ -1,14 +1,22 @@
 # pegaip
-classe php para listar informações de ip.
-1 - basta dar um require once no arquivo php;
-2 - instanciar a classe pegaIp;
+classe php para listar informações de ip.<br/>
+1 - basta dar um require once no arquivo php;<br/>
+2 - instanciar a classe pegaIp;<br/>
 
 ```
-<pre>
-  <code>
-  <?php
   require_once "PegaIp.php";
   **$varExemple = pegaIp();
-  </code>
-</pre>
+```
+
+Chamar sua variavel da seguinte forma executando o metodo apartir do objeto.
+
+```
+echo $varExemple->getIpExterno();
+echo $varExemple->getIpInterno();
+echo $varExemple->getCidade();
+echo $varExemple->getPais();
+echo $varExemple->getIsp(;
+echo $varExemple->getRegiao();
+echo $varExemple->getStatus();
+echo $varExemple->getCountryCode();
 ```
