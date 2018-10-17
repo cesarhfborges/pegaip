@@ -1,5 +1,7 @@
 <?php
 
+//Cesar Henrique
+
 class pegaIp {
     private $ipInterno;
     private $ipExterno;
