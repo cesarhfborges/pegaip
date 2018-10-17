@@ -5,7 +5,7 @@ classe php para listar informações de ip.<br/>
 
 ```
   require_once "PegaIp.php";
-  **$varExemple = pegaIp();
+  **$varExemple = pegaIp();**
 ```
 
 Chamar sua variavel da seguinte forma executando o metodo apartir da variavel(objeto).
