@@ -6,6 +6,7 @@ classe php para listar informações de ip.
 ```
 <pre>
   <code>
+  <?php
   require_once "PegaIp.php";
   **$varExemple = pegaIp();
   </code>
