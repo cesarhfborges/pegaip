@@ -8,7 +8,7 @@ classe php para listar informações de ip.<br/>
   **$varExemple = pegaIp();
 ```
 
-Chamar sua variavel da seguinte forma executando o metodo apartir do objeto.
+Chamar sua variavel da seguinte forma executando o metodo apartir da variavel(objeto).
 
 ```
 echo $varExemple->getIpExterno();
