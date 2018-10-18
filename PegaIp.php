@@ -1,6 +1,9 @@
 <?php
 
-//Cesar Henrique
+/**
+*  Classe Funciona para qualquer lugar do mundo.
+*  @author CeSaR HenriQ...
+*/
 
 class pegaIp {
     private $ipInterno;
@@ -27,7 +30,7 @@ class pegaIp {
     }
 
     /**
-     * @return mixed
+     * @return Ip Externo formato 000.000.000.000
      */
     public function getIpInterno()
     {
@@ -35,7 +38,7 @@ class pegaIp {
     }
 
     /**
-     * @return mixed
+     * @return Ip Local formato 000.000.000.000
      */
     public function getIpExterno()
     {
@@ -43,7 +46,7 @@ class pegaIp {
     }
 
     /**
-     * @return mixed
+     * @return Cidade Ex. Brasília
      */
     public function getCidade()
     {
@@ -51,7 +54,7 @@ class pegaIp {
     }
 
     /**
-     * @return mixed
+     * @return País Ex. Brazil
      */
     public function getPais()
     {
@@ -59,7 +62,7 @@ class pegaIp {
     }
 
     /**
-     * @return mixed
+     * @return Provedor de Serviços Internet (ISP) Ex. Vivo, GVT, NET...
      */
     public function getIsp()
     {
@@ -67,7 +70,7 @@ class pegaIp {
     }
 
     /**
-     * @return mixed
+     * @return UF estado ex. DF, GO, PR, SP, AM...
      */
     public function getRegiao()
     {
