@@ -3,7 +3,6 @@
 /**
 *  Classe Funciona para qualquer lugar do mundo.
 *  @author CeSaR HenriQ...
-*  Classe Aberta ao uso..........
 */
 
 class pegaIp {
