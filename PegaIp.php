@@ -2,7 +2,7 @@
 
 /**
 *  Classe Funciona para qualquer lugar do mundo.
-*  @author CeSaR HenriQ...
+*  @author CeSaR HenriQ... TESTE ALINE
 */
 
 class pegaIp {
